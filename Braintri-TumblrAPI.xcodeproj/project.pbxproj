@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142370841D195A11004865D9 /* tumblrLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 142370831D195A11004865D9 /* tumblrLogo.png */; };
+		142370871D196791004865D9 /* ConversationPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 142370861D196791004865D9 /* ConversationPost.m */; };
+		14B42EF21D16E5ED006587FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B42EF11D16E5ED006587FC /* main.m */; };
+		14B42EF51D16E5ED006587FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B42EF41D16E5ED006587FC /* AppDelegate.m */; };
+		14B42EFD1D16E5ED006587FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B42EFC1D16E5ED006587FC /* Assets.xcassets */; };
+		14B431161D180FD3006587FC /* PhotoPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431151D180FD3006587FC /* PhotoPostViewController.m */; };
+		14B431191D18100A006587FC /* PhotoPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431181D18100A006587FC /* PhotoPostView.m */; };
+		14B4311D1D1811BC006587FC /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4311C1D1811BC006587FC /* FeedTableViewController.m */; };
+		14B431201D1811F3006587FC /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4311F1D1811F3006587FC /* PhotoCell.m */; };
+		14B431231D18121F006587FC /* UniversalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431221D18121F006587FC /* UniversalCell.m */; };
+		14B431261D181272006587FC /* PickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431251D181272006587FC /* PickNameViewController.m */; };
+		14B431291D181298006587FC /* PickNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431281D181298006587FC /* PickNameView.m */; };
+		14B431361D1814D8006587FC /* RestApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431351D1814D8006587FC /* RestApiManager.m */; };
+		14B431391D1815B1006587FC /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431381D1815B1006587FC /* Post.m */; };
+		14B4313C1D1815D9006587FC /* RegularPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4313B1D1815D9006587FC /* RegularPost.m */; };
+		14B431411D181615006587FC /* PhotoPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431401D181615006587FC /* PhotoPost.m */; };
+		14B431441D181630006587FC /* AudioPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431431D181630006587FC /* AudioPost.m */; };
+		14B431621D18171F006587FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14B431481D18171F006587FC /* Info.plist */; };
+		14B431631D18171F006587FC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4314A1D18171F006587FC /* MASCompositeConstraint.m */; };
+		14B431641D18171F006587FC /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4314D1D18171F006587FC /* MASConstraint.m */; };
+		14B431651D18171F006587FC /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4314F1D18171F006587FC /* MASConstraintMaker.m */; };
+		14B431661D18171F006587FC /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431511D18171F006587FC /* MASLayoutConstraint.m */; };
+		14B431671D18171F006587FC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431551D18171F006587FC /* MASViewAttribute.m */; };
+		14B431681D18171F006587FC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431571D18171F006587FC /* MASViewConstraint.m */; };
+		14B431691D18171F006587FC /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431591D18171F006587FC /* NSArray+MASAdditions.m */; };
+		14B4316A1D18171F006587FC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4315C1D18171F006587FC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		14B4316B1D18171F006587FC /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B4315E1D18171F006587FC /* View+MASAdditions.m */; };
+		14B4316C1D18171F006587FC /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431611D18171F006587FC /* ViewController+MASAdditions.m */; };
+		14B431711D182432006587FC /* VideoPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431701D182432006587FC /* VideoPost.m */; };
+		14B431741D184F0D006587FC /* QuotePost.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431731D184F0D006587FC /* QuotePost.m */; };
+		14B431771D18B6CD006587FC /* LinkPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B431761D18B6CD006587FC /* LinkPost.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		142370831D195A11004865D9 /* tumblrLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumblrLogo.png; sourceTree = "<group>"; };
+		142370851D196791004865D9 /* ConversationPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationPost.h; sourceTree = "<group>"; };
+		142370861D196791004865D9 /* ConversationPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationPost.m; sourceTree = "<group>"; };
+		14B42EED1D16E5ED006587FC /* Braintri-TumblrAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Braintri-TumblrAPI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B42EF11D16E5ED006587FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14B42EF31D16E5ED006587FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14B42EF41D16E5ED006587FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14B42EFC1D16E5ED006587FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B42F011D16E5ED006587FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B431141D180F72006587FC /* PhotoPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPostViewController.h; sourceTree = "<group>"; };
+		14B431151D180FD3006587FC /* PhotoPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPostViewController.m; sourceTree = "<group>"; };
+		14B431181D18100A006587FC /* PhotoPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPostView.m; sourceTree = "<group>"; };
+		14B4311A1D181021006587FC /* PhotoPostView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPostView.h; sourceTree = "<group>"; };
+		14B4311B1D181196006587FC /* FeedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		14B4311C1D1811BC006587FC /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		14B4311E1D1811D3006587FC /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		14B4311F1D1811F3006587FC /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		14B431211D18120B006587FC /* UniversalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversalCell.h; sourceTree = "<group>"; };
+		14B431221D18121F006587FC /* UniversalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversalCell.m; sourceTree = "<group>"; };
+		14B431241D181254006587FC /* PickNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickNameViewController.h; sourceTree = "<group>"; };
+		14B431251D181272006587FC /* PickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickNameViewController.m; sourceTree = "<group>"; };
+		14B431271D181281006587FC /* PickNameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickNameView.h; sourceTree = "<group>"; };
+		14B431281D181298006587FC /* PickNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickNameView.m; sourceTree = "<group>"; };
+		14B4312D1D181328006587FC /* PostType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostType.h; sourceTree = "<group>"; };
+		14B431341D1814D8006587FC /* RestApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestApiManager.h; sourceTree = "<group>"; };
+		14B431351D1814D8006587FC /* RestApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestApiManager.m; sourceTree = "<group>"; };
+		14B431371D1815B1006587FC /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		14B431381D1815B1006587FC /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		14B4313A1D1815D9006587FC /* RegularPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularPost.h; sourceTree = "<group>"; };
+		14B4313B1D1815D9006587FC /* RegularPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularPost.m; sourceTree = "<group>"; };
+		14B4313F1D181615006587FC /* PhotoPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPost.h; sourceTree = "<group>"; };
+		14B431401D181615006587FC /* PhotoPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPost.m; sourceTree = "<group>"; };
+		14B431421D181630006587FC /* AudioPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPost.h; sourceTree = "<group>"; };
+		14B431431D181630006587FC /* AudioPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPost.m; sourceTree = "<group>"; };
+		14B431481D18171F006587FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B431491D18171F006587FC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		14B4314A1D18171F006587FC /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		14B4314B1D18171F006587FC /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		14B4314C1D18171F006587FC /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		14B4314D1D18171F006587FC /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		14B4314E1D18171F006587FC /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		14B4314F1D18171F006587FC /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		14B431501D18171F006587FC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		14B431511D18171F006587FC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		14B431521D18171F006587FC /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		14B431531D18171F006587FC /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		14B431541D18171F006587FC /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		14B431551D18171F006587FC /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		14B431561D18171F006587FC /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		14B431571D18171F006587FC /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		14B431581D18171F006587FC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		14B431591D18171F006587FC /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		14B4315A1D18171F006587FC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		14B4315B1D18171F006587FC /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		14B4315C1D18171F006587FC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		14B4315D1D18171F006587FC /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		14B4315E1D18171F006587FC /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		14B4315F1D18171F006587FC /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		14B431601D18171F006587FC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		14B431611D18171F006587FC /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		14B4316F1D182432006587FC /* VideoPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPost.h; sourceTree = "<group>"; };
+		14B431701D182432006587FC /* VideoPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPost.m; sourceTree = "<group>"; };
+		14B431721D184F0D006587FC /* QuotePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotePost.h; sourceTree = "<group>"; };
+		14B431731D184F0D006587FC /* QuotePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotePost.m; sourceTree = "<group>"; };
+		14B431751D18B6CD006587FC /* LinkPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkPost.h; sourceTree = "<group>"; };
+		14B431761D18B6CD006587FC /* LinkPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkPost.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B42EEA1D16E5ED006587FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B42EE41D16E5ED006587FC = {
+			isa = PBXGroup;
+			children = (
+				14B42EEF1D16E5ED006587FC /* Braintri-TumblrAPI */,
+				14B42EEE1D16E5ED006587FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14B42EEE1D16E5ED006587FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B42EED1D16E5ED006587FC /* Braintri-TumblrAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B42EEF1D16E5ED006587FC /* Braintri-TumblrAPI */ = {
+			isa = PBXGroup;
+			children = (
+				14B42F071D180E39006587FC /* Lib */,
+				14B42F081D180E3D006587FC /* Classes */,
+				14B42EF31D16E5ED006587FC /* AppDelegate.h */,
+				14B42EF41D16E5ED006587FC /* AppDelegate.m */,
+				14B42EFC1D16E5ED006587FC /* Assets.xcassets */,
+				14B42F011D16E5ED006587FC /* Info.plist */,
+				142370831D195A11004865D9 /* tumblrLogo.png */,
+				14B42EF01D16E5ED006587FC /* Supporting Files */,
+			);
+			path = "Braintri-TumblrAPI";
+			sourceTree = "<group>";
+		};
+		14B42EF01D16E5ED006587FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14B42EF11D16E5ED006587FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14B42F071D180E39006587FC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				14B431471D18171F006587FC /* Masonry */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		14B42F081D180E3D006587FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14B4310F1D180EB4006587FC /* PhotoPost */,
+				14B431101D180EBB006587FC /* Feed List */,
+				14B431111D180EC3006587FC /* API */,
+				14B431121D180ECF006587FC /* Main */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		14B4310F1D180EB4006587FC /* PhotoPost */ = {
+			isa = PBXGroup;
+			children = (
+				14B431141D180F72006587FC /* PhotoPostViewController.h */,
+				14B431151D180FD3006587FC /* PhotoPostViewController.m */,
+				14B4311A1D181021006587FC /* PhotoPostView.h */,
+				14B431181D18100A006587FC /* PhotoPostView.m */,
+			);
+			name = PhotoPost;
+			sourceTree = "<group>";
+		};
+		14B431101D180EBB006587FC /* Feed List */ = {
+			isa = PBXGroup;
+			children = (
+				14B4311B1D181196006587FC /* FeedTableViewController.h */,
+				14B4311C1D1811BC006587FC /* FeedTableViewController.m */,
+				14B4311E1D1811D3006587FC /* PhotoCell.h */,
+				14B4311F1D1811F3006587FC /* PhotoCell.m */,
+				14B431211D18120B006587FC /* UniversalCell.h */,
+				14B431221D18121F006587FC /* UniversalCell.m */,
+			);
+			name = "Feed List";
+			sourceTree = "<group>";
+		};
+		14B431111D180EC3006587FC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				14B431341D1814D8006587FC /* RestApiManager.h */,
+				14B431351D1814D8006587FC /* RestApiManager.m */,
+				14B4312D1D181328006587FC /* PostType.h */,
+				14B431131D180F2D006587FC /* Posts */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		14B431121D180ECF006587FC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				14B431241D181254006587FC /* PickNameViewController.h */,
+				14B431251D181272006587FC /* PickNameViewController.m */,
+				14B431271D181281006587FC /* PickNameView.h */,
+				14B431281D181298006587FC /* PickNameView.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		14B431131D180F2D006587FC /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				14B431371D1815B1006587FC /* Post.h */,
+				14B431381D1815B1006587FC /* Post.m */,
+				14B4313A1D1815D9006587FC /* RegularPost.h */,
+				14B4313B1D1815D9006587FC /* RegularPost.m */,
+				14B4313F1D181615006587FC /* PhotoPost.h */,
+				14B431401D181615006587FC /* PhotoPost.m */,
+				14B431421D181630006587FC /* AudioPost.h */,
+				14B431431D181630006587FC /* AudioPost.m */,
+				14B4316F1D182432006587FC /* VideoPost.h */,
+				14B431701D182432006587FC /* VideoPost.m */,
+				14B431721D184F0D006587FC /* QuotePost.h */,
+				14B431731D184F0D006587FC /* QuotePost.m */,
+				14B431751D18B6CD006587FC /* LinkPost.h */,
+				14B431761D18B6CD006587FC /* LinkPost.m */,
+				142370851D196791004865D9 /* ConversationPost.h */,
+				142370861D196791004865D9 /* ConversationPost.m */,
+			);
+			name = Posts;
+			sourceTree = "<group>";
+		};
+		14B431471D18171F006587FC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				14B431481D18171F006587FC /* Info.plist */,
+				14B431491D18171F006587FC /* MASCompositeConstraint.h */,
+				14B4314A1D18171F006587FC /* MASCompositeConstraint.m */,
+				14B4314B1D18171F006587FC /* MASConstraint+Private.h */,
+				14B4314C1D18171F006587FC /* MASConstraint.h */,
+				14B4314D1D18171F006587FC /* MASConstraint.m */,
+				14B4314E1D18171F006587FC /* MASConstraintMaker.h */,
+				14B4314F1D18171F006587FC /* MASConstraintMaker.m */,
+				14B431501D18171F006587FC /* MASLayoutConstraint.h */,
+				14B431511D18171F006587FC /* MASLayoutConstraint.m */,
+				14B431521D18171F006587FC /* Masonry.h */,
+				14B431531D18171F006587FC /* MASUtilities.h */,
+				14B431541D18171F006587FC /* MASViewAttribute.h */,
+				14B431551D18171F006587FC /* MASViewAttribute.m */,
+				14B431561D18171F006587FC /* MASViewConstraint.h */,
+				14B431571D18171F006587FC /* MASViewConstraint.m */,
+				14B431581D18171F006587FC /* NSArray+MASAdditions.h */,
+				14B431591D18171F006587FC /* NSArray+MASAdditions.m */,
+				14B4315A1D18171F006587FC /* NSArray+MASShorthandAdditions.h */,
+				14B4315B1D18171F006587FC /* NSLayoutConstraint+MASDebugAdditions.h */,
+				14B4315C1D18171F006587FC /* NSLayoutConstraint+MASDebugAdditions.m */,
+				14B4315D1D18171F006587FC /* View+MASAdditions.h */,
+				14B4315E1D18171F006587FC /* View+MASAdditions.m */,
+				14B4315F1D18171F006587FC /* View+MASShorthandAdditions.h */,
+				14B431601D18171F006587FC /* ViewController+MASAdditions.h */,
+				14B431611D18171F006587FC /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B42EEC1D16E5ED006587FC /* Braintri-TumblrAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B42F041D16E5ED006587FC /* Build configuration list for PBXNativeTarget "Braintri-TumblrAPI" */;
+			buildPhases = (
+				14B42EE91D16E5ED006587FC /* Sources */,
+				14B42EEA1D16E5ED006587FC /* Frameworks */,
+				14B42EEB1D16E5ED006587FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Braintri-TumblrAPI";
+			productName = "Braintri-TumblrAPI";
+			productReference = 14B42EED1D16E5ED006587FC /* Braintri-TumblrAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B42EE51D16E5ED006587FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dominik Reczek";
+				TargetAttributes = {
+					14B42EEC1D16E5ED006587FC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 14B42EE81D16E5ED006587FC /* Build configuration list for PBXProject "Braintri-TumblrAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14B42EE41D16E5ED006587FC;
+			productRefGroup = 14B42EEE1D16E5ED006587FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B42EEC1D16E5ED006587FC /* Braintri-TumblrAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B42EEB1D16E5ED006587FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142370841D195A11004865D9 /* tumblrLogo.png in Resources */,
+				14B42EFD1D16E5ED006587FC /* Assets.xcassets in Resources */,
+				14B431621D18171F006587FC /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B42EE91D16E5ED006587FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B431641D18171F006587FC /* MASConstraint.m in Sources */,
+				14B431361D1814D8006587FC /* RestApiManager.m in Sources */,
+				14B431741D184F0D006587FC /* QuotePost.m in Sources */,
+				14B4316C1D18171F006587FC /* ViewController+MASAdditions.m in Sources */,
+				14B431391D1815B1006587FC /* Post.m in Sources */,
+				14B431291D181298006587FC /* PickNameView.m in Sources */,
+				14B4311D1D1811BC006587FC /* FeedTableViewController.m in Sources */,
+				14B431631D18171F006587FC /* MASCompositeConstraint.m in Sources */,
+				14B431411D181615006587FC /* PhotoPost.m in Sources */,
+				14B431651D18171F006587FC /* MASConstraintMaker.m in Sources */,
+				14B4316B1D18171F006587FC /* View+MASAdditions.m in Sources */,
+				14B431231D18121F006587FC /* UniversalCell.m in Sources */,
+				14B431671D18171F006587FC /* MASViewAttribute.m in Sources */,
+				14B42EF51D16E5ED006587FC /* AppDelegate.m in Sources */,
+				14B4316A1D18171F006587FC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				14B42EF21D16E5ED006587FC /* main.m in Sources */,
+				14B431441D181630006587FC /* AudioPost.m in Sources */,
+				14B431261D181272006587FC /* PickNameViewController.m in Sources */,
+				14B431691D18171F006587FC /* NSArray+MASAdditions.m in Sources */,
+				14B4313C1D1815D9006587FC /* RegularPost.m in Sources */,
+				14B431681D18171F006587FC /* MASViewConstraint.m in Sources */,
+				14B431161D180FD3006587FC /* PhotoPostViewController.m in Sources */,
+				142370871D196791004865D9 /* ConversationPost.m in Sources */,
+				14B431191D18100A006587FC /* PhotoPostView.m in Sources */,
+				14B431711D182432006587FC /* VideoPost.m in Sources */,
+				14B431661D18171F006587FC /* MASLayoutConstraint.m in Sources */,
+				14B431771D18B6CD006587FC /* LinkPost.m in Sources */,
+				14B431201D1811F3006587FC /* PhotoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14B42F021D16E5ED006587FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B42F031D16E5ED006587FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B42F051D16E5ED006587FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Braintri-TumblrAPI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DR.Braintri-TumblrAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14B42F061D16E5ED006587FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Braintri-TumblrAPI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DR.Braintri-TumblrAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B42EE81D16E5ED006587FC /* Build configuration list for PBXProject "Braintri-TumblrAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B42F021D16E5ED006587FC /* Debug */,
+				14B42F031D16E5ED006587FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B42F041D16E5ED006587FC /* Build configuration list for PBXNativeTarget "Braintri-TumblrAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B42F051D16E5ED006587FC /* Debug */,
+				14B42F061D16E5ED006587FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B42EE51D16E5ED006587FC /* Project object */;
+}
