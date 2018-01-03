@@ -27,8 +27,7 @@
     self.navigationItem.title = @"Braintri - TumblrAPI";
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.11 green:0.27 blue:0.53 alpha:0.8];
-    [self.navigationController.navigationBar setTitleTextAttributes:
-     @{NSForegroundColorAttributeName:[UIColor yellowColor]}];
+    [self.navigationController.navigationBar setTitleTextAttributes: @{NSForegroundColorAttributeName:[UIColor yellowColor]}];
     
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideKeyboard)];
     [self.view addGestureRecognizer:tapGestureRecognizer];
@@ -47,8 +46,8 @@
     
     RestAPIManager *manager = [[RestAPIManager alloc] init];
     [manager getFeedForUser:user completionHandler:^(NSArray *feed) {
-        [[self castedView].confirmationButton setEnabled:true];
         dispatch_async(dispatch_get_main_queue(), ^{
+            [[self castedView].confirmationButton setEnabled:true];
             if (feed != nil) {
                 FeedTableViewController *feedTableViewController = [[FeedTableViewController alloc] init];
                 // Przekazanie do drugiego controllera
